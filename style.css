@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1400px;
+    height: 773px;
+    margin: 0 auto;
+}
+
+.header, .main_content, #lang {
+    display: flex;
+}
+
+#title {
+    font-family: 'Vibur', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 17px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.main_content {
+    margin-left: 140px;
+}
+
+#logo {
+    width: 45px;
+    height: 45px;
+}
+
+#menu {
+    width: 34px;
+    height: 28.56px;
+    margin-left: 45px;
+}
+
+#arrow {
+    height: 7px;
+    margin-left: 3px;
+    margin-top: 7px;
+}
+
+#lang {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+#sign_button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #3A5AFF;
+    border: 0px solid #979797;
+    border-radius: 4px;
+    padding: 10px 25px 11px 25px;
+    text-decoration: none;
+    color: #FFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-left: 30px;
+}
+
+#log_button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    color: #979797;
+    padding: 10px 25px 14px 25px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header {
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 66px;
+    margin-top: 34px;
+}
+
+.logo {
+    display: flex;
+}
+
+#head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 74px;
+    font-weight: 800;
+    line-height: 100px;
+    margin-bottom: 35px;
+    margin-top: 68px;
+}
+
+#text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 48px;
+    color: #544837;
+}
+
+#sign_free_button {
+    background: #3A5AFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #FFF;
+    text-decoration: none;
+    padding: 17px 59px 19px 59px;
+    border-radius: 4px;
+}
+
+#text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    margin-top: 67px;
+    margin-bottom: 10px;
+}
+
+#as_photo {
+    margin-right: 15px;
+}
+
+#mainphoto {
+    margin-left: 105.27px;
+    margin-top: 93.43px;
+}
+
+.head_block {
+    margin: 0 0 35px 0;
+}
+
+.text1_block {
+    max-width: 0 0 48px 0;
+}
+
+.content {
+    max-width: 522px;
+}
+
+.buttons i{
+    display: none;
+}
+
+.buttons {
+    display: flex;
+}
